@@ -23,7 +23,3 @@ def pdb(pdb_id):
 @app.route("/xyz_renderer/")
 def xyz_renderer():
     return render_template("xyz_renderer.html")
-
-
-if __name__ == "__main__":
-    app.run()
